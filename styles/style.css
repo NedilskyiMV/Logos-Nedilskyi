@@ -1,0 +1,100 @@
+@import url(reset.css);
+
+.block-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.block-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.block-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.block-one a {
+  color: orange;
+  margin: 20px 0 20px 0;
+  font-size: 25px;
+  transition: 1s;
+}
+
+.block-one a:hover {
+  color: orangered;
+  border-bottom: 1px solid orangered;
+}
+
+.block-one p {
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.block-one img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+  border: 2px solid orange;
+  border-radius: 50%;
+}
+
+.block-two a {
+  font-size: 25px;
+  margin: 20px 0 20px 0;
+  transition: 1s;
+}
+
+.block-two a:hover {
+  color: darkblue;
+  border-bottom: 1px solid darkblue;
+}
+
+.block-two p {
+  text-align: center;
+  margin: 0px 250px 20px 250px;
+}
+
+.block-two img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.block-three h1 {
+  color: orange;
+  margin: 20px 0 20px 0;
+  font-size: 25px;
+  transition: 1s;
+}
+
+.block-three h1:hover {
+  cursor: pointer;
+  color: orangered;
+  border-bottom: 1px solid orangered;
+}
+
+.block-three p {
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.block-three img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px;
+  border: 2px solid orange;
+  border-radius: 50%;
+}
